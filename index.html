@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Network</title>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-white mb-4">
+        <div class="container">
+          <a class="navbar-brand text-primary fw-bold d-flex align-items-center " href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path 
+                d="M9.25 12a.75.75 0 01-.22.53l-2.75 2.75a.75.75 0 01-1.06-1.06L7.44 12 5.22 9.78a.75.75 
+                0 111.06-1.06l2.75 2.75c.141.14.22.331.22.53zm2 2a.75.75 0 000 1.5h5a.75.75 0 000-1.5h-5z"></path>
+                <path fill-rule="evenodd" fill="#0d6efd" d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 
+                0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75zm1.75-.25a.25.25 0 00-.25.25v14.5c0 
+                .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75z"></path></svg>
+            Network</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary " type="submit">Search</button>
+            </form>
+            <div class="dropdown ms-4">
+                <a class="d-block link-dark text-decoration-none dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img  width="45" class="rounded-circle avatar" src="./img/avatar.png" alt="avatarka">
+                </a>
+                <ul class="dropdown-menu mb-0 shadow">
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+                      <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+                      Photos
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+                      <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+                      Movies
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+                      <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+                      Favorites
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+                      <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+                      Music
+                    </a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-3">
+                <ul class="nav nav-pills flex-column mb-auto bg-white rounded">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link active" aria-current="page">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" fill="#fff" d="M8.156 1.835a.25.25 0 00-.312 0l-5.25 4.2a.25.25 0 
+                            00-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 01.75-.75h3.5a.75.75 0 
+                            01.75.75v5.25h2.75a.25.25 0 00.25-.25V6.23a.25.25 0 00-.094-.195l-5.25-4.2zM6.906.664a1.75 
+                            1.75 0 012.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 
+                            0113.25 15h-3.5a.75.75 0 01-.75-.75V9H7v5.25a.75.75 0 01-.75.75h-3.5A1.75 
+                            1.75 0 011 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2h-.001z"></path></svg>
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link link-dark">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" fill="#0d6efd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 
+                            5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 
+                            01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 
+                            1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 
+                            2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
+                        Friends
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link link-dark">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" fill="#0d6efd"d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 
+                            0 0114.25 16H1.75A1.75 1.75 0 010 14.25V1.75zM1.5 6.5v7.75c0 .138.112.25.25.25H5v-8H1.5zM5 5H1.5V1.75a.25.25 
+                            0 01.25-.25H5V5zm1.5 1.5v8h7.75a.25.25 0 00.25-.25V6.5h-8zm8-1.5h-8V1.5h7.75a.25.25 0 01.25.25V5z"></path></svg>
+                        Orders
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link link-dark">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" fill="#0d6efd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 
+                            1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 
+                            0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 
+                            0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 
+                            3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 
+                            0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 
+                            1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 
+                            0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 
+                            8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 
+                            3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 
+                            9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 
+                            2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 
+                            4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805
+                            0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"></path></svg>
+                        Products
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link link-dark">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0d6efd" 
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sliders">
+                        <line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line>
+                        <line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line>
+                        <line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line>
+                        <line x1="17" y1="16" x2="23" y2="16"></line></svg>
+                        Settings
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.col-lg-2 col-md-3 -->
+            <div class="col-lg-3">
+                <div class="card " >
+                    <img src="./img/avatar.png" class="card-img-top" alt="avatarka">
+                    <div class="card-body">
+                      <a href="#" class="btn btn-secondary w-100">Edit by...</a>
+                      <ul class="list-group list-group-flush mt-3 border border-primary ">
+                        <li class="list-group-item border-0">Money transfers</li>
+                        <li class="list-group-item border-0">Stories</li>
+                        <li class="list-group-item  border-0">Story arhives</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-7">
+                <div class="card" >
+                    <div class="card-body">
+                        <h5 class="card-title">Maria Shalygina</h5>
+                        <p class="card-text text-secondary">Online 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill-rule="evenodd" fill="#0d6efd" d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 
+                            1.75v10.5A1.75 1.75 0 0114.25 15H1.75A1.75 1.75 0 010 13.25V2.75zm1.75-.25a.25.25 0 
+                            00-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V2.75a.25.25 0 00-.25-.25H1.75zM7.25 
+                            8a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L5.44 8 3.72 6.28a.75.75 0 111.06-1.06l2.25 
+                            2.25c.141.14.22.331.22.53zm1.5 1.5a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"></path></svg>
+                        </p>
+                        <p class="card-text">
+                            - and how long will you fly in the clouds?! <br> - until the sky ends...</p>
+                        <div class="text-secondary">
+                        <hr />
+                        </div>
+
+                        <div class="row mb-2">
+                        <div class="col-lg-4">
+                            <span class="text-secondary">Years:</span>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-8">
+                            <a href="" class="link text-decoration-none">18</a>
+
+                        </div>
+                        <!-- /.col-lg-8 -->
+                        
+                        </div>
+                        <!-- /.row -->
+                        <div class="row mb-2">
+                            <div class="col-lg-4">
+                                <span class="text-secondary">City:</span>
+                            </div>
+                            <!-- /.col-lg-4 -->
+                            <div class="col-lg-8">
+                                <a href="" class="link text-decoration-none">Kaluga</a>
+                            </div>
+                            <!-- /.col-lg-8 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-lg-7 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
